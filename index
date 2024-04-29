@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extensão de cílios - Página principal</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        /* table {
+            margin: 0 auto; /* Centralizar horizontalmente }*/
+         
+
+        /* Alinhar os links à esquerda com espaço entre eles */
+        a {
+            display: inline-block;
+            text-align: left; /* Alinha o texto à esquerda */
+            margin-right: 10px; /* Adiciona um espaço entre os links */
+        }
+
+        #links-container {
+           text-align: left;
+           margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i>Faça Cílios</i></h1>
+        <br>
+        <img src="img/egipcio.png" width="250" height="200">
+        <img src="img/classico.jpeg" width="250" height="200">
+        <img src="img/brasileiro.png" width="230" height="200">
+        <img src="img/4d.jpg" width="250" height="200">
+        <img src="img/gato.jpg" width="250" height="200">
+        <br><br>
+        <div id="links-container">
+            <a href="quem_somos.html">Quem somos</a> |
+            <a href="agendamento.html">Agendamento</a> |
+            <a href="contato.html">Contato</a> |
+            <a href="trabalhe_conosco.html">Trabalhe conosco</a>
+        </div>
+        
+        <table width="300">
+            <tr>
+                <th>Serviços</th>
+                <th>Valores</th>
+            </tr>
+            <tr>
+                <td>Fio a fio clássico</td>
+                <td>R$ 150,00</td>
+            </tr>
+            <tr>
+                <td>Volume brasileiro 2d</td>
+                <td>R$ 150,00</td>
+            </tr>
+            <tr>
+                <td>Volume egípcio 3d</td>
+                <td>R$ 150,00</td>
+            </tr>
+            <tr>
+                <td>Volume tecnológico</td>
+                <td>R$ 150,00</td>
+            </tr>
+        </table>
+        <br>
+        <h3 style="text-align: left; margin-left: 40px;"><u>Vantagens de ser cliente:</u></h3>
+        <ol type="1" style="text-align: left; ">
+            Atendimento personalizado<br>
+            Alta qualidade e preços que cabem no seu bolso<br>
+            Técnica de colocação exclusiva (internacional)<br>
+            Conforto e segurança para seus cílios<br>
+        </ol>
+        <h2 ><i>Seus cílios em boas mãos!!</i></h2>
+        <p style="text-align: left; margin-left: 20px;">Venha desfrutar de um atendimento personalizado e de qualidade garantida. Utilizo os melhores materiais disponíveis no mercado, pois o resultado do meu serviço é o mais importante.</p>
+
+        <hr>
+        <h2><b>Serviço sujeito a agendamento!</b></h2>
+    </div>
+</body>
+</html>
